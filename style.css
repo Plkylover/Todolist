@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header, nav{
+  width: 100%;
+  height: 10vw;
+  border: 0.1vw solid royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: royalblue;
+}
+.sub-header{
+  width: 100%;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-header button{
+  width: 30vw;
+  padding: 3vw;
+  border-radius: 5vw;
+  background-color: cornflowerblue;
+  color: white;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.todo-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.todo{
+  width: 90%;
+  height: 15vw;
+  box-shadow: 1vw 1vw 4vw whitesmoke;
+  border-radius: 3vw;
+  color: cornflowerblue;
+  border: 0.5vw solid blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 1.4em;
+  margin: 0 0 2vw 0;
+}
+@media only screen and (min-width: 800px){
+  button svg{
+    height: 5vw;
+    width: 5vw;
+  }
+  button{
+    font-size: 1.4em;
+  }
+}
